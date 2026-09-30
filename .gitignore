@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python/Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Large/generated datasets
+ISL_DATASET/
+ISL_DATASET_LARGE/
+data/*.mp4
+data/videos/
+
+# Generated model files
+models/*.joblib
+models/*.keras
+models/*.h5
+models/*.pkl
+models/*.pth
+models/*.pt
+
+# Generated datasets/features
+data/*.npz
+data/*.npy
+
+# Training outputs
+logs/
+runs/
+checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+# Generated CSV outputs
+data/*_labels.csv
+data/*_history.csv
+data/landmarks.csv
+data/signer_independent_split.csv
+
+# Generated NumPy files
+models/*.npy
+
+# Generated CSV outputs
+data/*_labels.csv
+data/*_history.csv
+data/landmarks.csv
+data/signer_independent_split.csv
+
+# Generated NumPy files
+models/*.npy
